@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Progress Report</title>
+</head>
+<body>
+    <h3>Monthely Progress Report</h3>
+    <p>Hello {{username}},</p>
+    <p>This is your Monthly progress report. </p>
+    {% for d in lister %}
+        <h4>{{d[0]}}</h4>
+        <p>{{d[1]}}</p>
+
+        {% for c in d[2] %}
+            <h5>{{c[1]}}</h5>
+            <p>{{c[2]}}</p>
+            <p>{{c[3]}}</p>
+            <p>{{c[4]}}</p>
+        {% endfor %}
+
+    {% endfor %}
+</body>
+</html>

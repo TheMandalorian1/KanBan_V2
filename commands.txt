@@ -1,0 +1,22 @@
+##cd to project
+cd /mnt/c/Users/asus/Downloads/Project2  
+
+## start redis server on windows
+sudo service redis-server start
+
+redis-server
+
+## start worker in ubuntu
+celery -A main.celery worker -l info
+
+## start beat in windows
+celery -A main.celery beat --max-interval 1 -l info
+
+## mailhog server
+http://127.0.0.1:5000:8025
+
+ip = ip addr              // to get ip of wsl  
+ip:8025
+
+## start mailhog server
+~/go/bin/MailHog  

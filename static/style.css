@@ -1,0 +1,475 @@
+/* Home : Login : Register */
+.scroll {
+    overflow-y: scroll;
+    width: 100%;
+    /* min-height: 100px; */
+    max-height: 450px;
+    border: 1px solid #ccc;
+    background: #deeaee;
+    border: none;
+    opacity:1;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background-color: #deeaee;
+  }
+  
+  /* Handle */
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+  }
+  
+body{
+    background-color: #daebe8;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    overflow: hidden;
+}
+
+/* kanban logo */
+#logo{
+    font-style:italic; 
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+/* Container of upbox/popbox */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Popbox for forms */
+.upbox{
+    border-radius: 10px;
+    font-weight:600;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0px 0px 45px 20px ;
+    background-color: none;
+    
+}
+/* --------------------------------------------------------------------------------------------- */
+
+/* Header for popbox */
+.head{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+}
+
+.info{
+    text-align: center;
+    padding: 20px;
+    font-size:150%;
+    border: 100px; 
+}
+
+/* buttons in forms */
+.sub{
+    text-align: center;
+}
+
+/* Input tags in forms */
+input{
+    box-sizing: border-box;
+    border-color:black;
+    font-size: 20px;
+}
+
+/* Button in forms */
+.buton{
+    border: 1px solid black;
+    height: 30px;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-radius: 5px;
+    /* margin: 30px 0px 10px; */
+}
+
+
+#btn2{
+    width: 50px;
+    padding-top: 0;
+}
+
+button:hover{
+    background-color: rgb(238, 126, 6);
+    color: white;
+}
+
+#btn{
+    background-color: #105ded;
+    color: white;
+    border: none;
+    border: 2px solid black;
+}
+
+#btn1{
+    background-color: #105ded;
+    color: white;
+    border: none;
+    border: 2px solid black;
+    height: 40px;
+    width: 20%;
+}
+#btn1:hover{
+    background-color: rgb(238, 126, 6);
+    color: white;
+}
+
+.not1{
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    /* width: 80%; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.h{
+    font-size: 90px;
+    font-weight: bolder; 
+    padding-left: 10px;
+    padding-top: 50%;
+    display: inline;
+    margin: 5px;
+    /* color: rgb(238, 126, 6); */
+}
+
+.sub1{
+    padding-top: 20%;
+    text-align: center;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+
+/* Dashboard */
+body{
+    overflow: hidden;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+/* Header for every page after login */
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    /* font-weight: bolder; */
+}
+
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+/* .upbox{
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 0px 45px 20px ;
+    background-color: #eacd6e;
+} */
+
+.upbox1{
+    width: 450px;
+    height: 650px;
+    box-shadow: 0px 0px 45px 20px ;
+    /* background-color: #eacd6e; */
+    background-color:#a5d916;
+}
+
+.sub{
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    box-sizing: border-box;
+    border-color:black;
+    font-size: 20px;
+}
+
+.head{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 5px;
+}
+
+.info{
+    font-weight: bold;
+    text-align: center;
+    font-size:100%;
+}
+
+#btn{
+    background-color: #105ded;
+    color: white;
+    border: 2px solid black;
+}
+
+#btn:hover{
+    background-color: #100ded;
+}
+
+#btnc{
+    border: 2px solid black;
+}
+
+#btnc:hover{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+}
+
+h2{    
+    display: inline-flex;
+    margin: 4px;
+    padding-top: 5px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+ul{
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    float: right;
+    margin: 12px;
+    padding-right: 15px;
+}
+
+#yoo{text-align: left; margin-top: 20px; padding-top: 20px;}
+ .box1{
+    border: 1px solid black;
+    margin: 20px;
+    background-blend-mode:color-burn;
+    width: 334px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    float:left;
+}  
+a{
+    text-decoration:none;
+}
+.car1{
+    margin: 10px 22px 22px 30px;
+    width: 250px;
+    height: 200px;
+    background-color: #b5e7a0;
+    /* border:5px solid black; */
+    border-radius: 10px;    
+    box-shadow: 0px 0px 5px 5px;
+} 
+
+.cont{
+    padding-left: 20px;
+    display: flex;
+    float: left; 
+    flex-wrap: wrap;
+    max-height: 92vh;
+    min-height: 50vh;
+    overflow-y: auto;
+    scroll-margin-right: 0px;
+}
+
+#in{
+    display: inline;
+}
+
+textarea{
+    border:2px solid black 
+}
+
+.newb{
+    border: 2px solid black;
+    height: 35px;
+    width: 130px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    
+}
+
+#check{
+    size: 20px;
+    border: 1px solid black;
+    color: #105ded;
+    
+}
+
+#btn1{
+    background-color: #105ded;
+    color: white;
+    border: 2px solid white;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin: 0px;
+}
+#btn1:hover{
+    background-color: #102ded;
+    color: white;
+}
+.contop{
+    border-radius: 8px;
+    border:15px solid #424242;
+}
+
+/* .buton{
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+    padding: 0 10px;
+    margin: 0px 0px 5px 0%;
+
+} */
+
+#buton{
+    height: 30px;
+}
+textarea{
+    resize: none;
+}
+
+.nest{
+    max-height: 460px;
+    min-height: 465px;
+    overflow-y: auto;
+}
+
+.present{
+    background-color: white;
+    font-size: large;
+    text-align: center;
+    margin: 2px 8px 5px 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+    max-height: 65px;
+    overflow: auto;
+}
+
+.navb{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#navb{
+    background-color: #cc0404;
+    color: white;
+}
+
+#confirmbox{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 45px 20px ;
+    background-color: orange;
+    text-align: center;
+}
+
+.formp{
+    margin: 3px;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+}
+
+#pen{
+    background-color:#FBBC05;
+    color: black;
+}
+
+#comp{
+    background-color: #34A853;
+    color: black;
+}
+
+#fail{
+    background-color: #EA4335;
+    color: black;
+}
+
+#btn3{
+    font-size: large;
+}
+
+#btn3:hover{
+    font-size: large;
+    background-color: #105ded;
+    color: white;
+}
+
+.boxp{
+    font-weight: bold;
+    font-size: large;
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;
+}
+
+.carp{
+    font-weight: bold;
+    font-size: large;
+    background-color: whitesmoke;
+    height: 60px;
+    width: 94%;
+}
+
+#carp{
+    /* border-radius: 15px; */
+    margin: 0 3% 0 3%;
+}
+
+/* Notification box */
+.not1{
+    font-size: large;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    /* width: 1000px; */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.low{
+    padding-left: 100px;
+    margin-top: 5px;
+}
+#newb{
+    border: 2px black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+    color: white;
+    height: 30px;
+    width: 130px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #105ded;
+}
+
+#newb:hover{
+    background-color: #100ded;
+}
